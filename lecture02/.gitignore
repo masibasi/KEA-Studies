@@ -1,6 +1,4 @@
-#directories that are not for here
-front_end
-about
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
