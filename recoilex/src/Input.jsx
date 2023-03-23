@@ -1,11 +1,5 @@
 import React from "react";
-import {
-    RecoilRoot,
-    atom,
-    selector,
-    useRecoilState,
-    useRecoilValue,
-} from "recoil";
+import { useRecoilState } from "recoil";
 
 import { number1State, number2State } from "./Recoil";
 

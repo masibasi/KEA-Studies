@@ -6,7 +6,7 @@ import {
     useRecoilValue,
 } from "recoil";
 
-export default function App() {
+export default function RecoilEx() {
     const textState = atom({ key: "textState", default: "" });
 
     const charCountState = selector({
@@ -61,7 +61,7 @@ export default function App() {
     };
     return (
         <RecoilRoot>
-            <div className="App">
+            <div className="RecoilEx">
                 <h1>Hello GCU-Kakao</h1> <h2>Add 10</h2> <CharacterAdder />
             </div>
         </RecoilRoot>

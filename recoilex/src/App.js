@@ -9,7 +9,6 @@ export default function App() {
         <div className="App">
             <RecoilRoot>
                 <Calculator />
-                {/* <RecoilEx /> */}
             </RecoilRoot>
         </div>
     );

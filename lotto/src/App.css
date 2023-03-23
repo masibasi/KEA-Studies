@@ -1,0 +1,14 @@
+.Result {
+    display: flex;
+    flex-direction: row;
+}
+
+.Ball {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
